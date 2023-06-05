@@ -1,0 +1,26 @@
+header{
+    border: 1px solid blue;
+    height : 80px;
+    display: flex;
+    justify-content: end;
+}
+@media(max-width:425px){
+    header{
+        background-color: solid red;
+    }
+}
+@media(min-width:426px){
+    header{
+        background-color: blueviolet;
+    }
+}
+@media(min-width:2560px){
+    header{
+        background-color: aqua;
+    }
+}
+@media(min-width:769px) and (max-width:2559px){
+    header{
+        background-color:blueviolet;
+    }
+}
